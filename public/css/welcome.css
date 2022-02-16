@@ -1,0 +1,150 @@
+
+/******** Start Overriding Bootstrap*******/
+
+/* logo */
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    background-color:#376fbf;
+    color:#ffffff;
+}
+
+.GPC h1 span {
+  color: #376fbf;
+}
+
+.GPC p {
+  font-weight: bold;
+}
+
+/******** End Overriding Bootstrap*******/
+
+/*  Start body Tag fof Welcome page */
+html,
+body {
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background:url('../img/GPC-Background.jpg') no-repeat center center fixed;
+    background-color: #bdd2e4;  
+}
+
+/*  End body Tag fo Welcome page */
+
+/*  Start SliedShow for Welcome page  */
+.carousel {
+    height: 60%;
+}
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+footer {
+    margin: 50px 0;
+}
+.carousel-indicators {bottom:0}
+.carousel-indicators li {
+    height:15px;
+    width:15px;
+    border:1px solid #EEE
+}
+
+.carousel-indicators .active {
+    height:17px;
+    width:17px;
+    background-color: #376fbf;
+    }
+
+.carousel-inner > .item > img {width:100%}
+/*  End SliedShow for Welcome page  */
+
+/* Start Section Loading */
+/* End Section Loading */
+
+.nav-md{
+     background-color: #eaeef9;
+}
+
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+
+
+/* Start index planel box */
+ul.bs-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.bs-box>li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+}
+ul.bs-box>li {
+font-weight: bold;
+}
+ul.bs-box>li>a {
+    border-bottom: 2px solid #ff7676;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+ul.bs-box>li>a:hover {
+     box-shadow: 0 3px 8px #2196F3;
+    -webkit-box-shadow: 0 3px 8px #2196F3;
+    -moz-box-shadow: 0 3px 8px #2196F3;
+     border-bottom: 2px solid #2196F3;
+}
+/* End index planel box */
+
+.modal-content {
+     background:url('../img/GPC.jpg') no-repeat center center fixed;
+    background-color: rgba(255, 255, 255, 0.3);
+    min-height:600px;
+    color:#ffffff;
+}
+
+.modal-content a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.modal-content a:hover {
+    color: red;
+    text-decoration: none;
+}
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #ff7676;
+}
+#GPC_Color{
+    color: #376fbf;
+}
+
+#containerGPC{
+  border-bottom: 1px solid #f91a1a;
+}
+
+.error_404{
+    margin-top: 180px;
+}

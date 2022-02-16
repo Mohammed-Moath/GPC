@@ -1,0 +1,13 @@
+/* .dataTable{
+    overflow-y: scroll;
+    max-height: 250px;
+} */
+.custom-control{
+    min-height: 1rem;
+}
+.label_user_group{
+    margin-bottom: 0;
+}
+.span_radio{
+    margin-right: 0.5rem;
+}

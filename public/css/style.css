@@ -1,0 +1,89 @@
+.User-Profile img{
+    height: 25px;
+    width: 27px;
+  vertical-align:small;
+}
+
+#Register{
+  background:url('../img/GPC-Background.jpg') no-repeat center center fixed;
+    background-color: rgba(255, 255, 255, 0.3);
+    min-height:600px
+}
+
+.page-header-Verification {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #f91a1a;
+}
+
+#ban i{
+  color: red;
+}
+
+
+
+.Verification-right{
+  margin-top: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Verification-left{
+   margin-top: 200px;
+   border-right-style: solid;
+  border-width: 2px;
+  border-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:40px;
+  line-height: 2;
+}
+
+.visible-Verification{
+  color:#342775;
+  margin-top: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer-Register{
+  margin-top: 40px;
+}
+
+.Registration-right{
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.Registration-right hr{
+    border-bottom: 1px solid #002fdc;
+
+}
+
+.Verification-left-StudentRegistration{
+   margin-top: 200px;
+   border-right-style: solid;
+  border-width: 2px;
+  border-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:40px;
+  line-height: 2;
+  
+  position: fixed;
+  margin-right: 590px;
+
+}
+.Registration-right .label-info-SR{
+  color: red;
+}
+.Verification-left-login{
+  margin-top: 100px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #f91a1a;
+}
+
+.Verification-left-login h6{
+   margin-top: 80px;
+  font-family:Courier New, Courier, monospace;
+ 
+  line-height: 2;
+}

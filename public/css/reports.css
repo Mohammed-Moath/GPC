@@ -1,0 +1,133 @@
+body {
+  direction: rtl;
+  
+ 
+  
+}
+.container{
+  position: relative;
+  width: 21cm;
+  height: 29.7cm;
+   
+}
+
+
+.header-td1 div{
+  width: calc(96%/3);
+  margin-right:1%;
+  float: right;
+  font-weight: bold;
+  line-height: 150%;
+  text-align: center;
+}
+.clear{
+  clear: both;
+}
+
+.logo img{
+  height: 40%;
+  width: 45%;
+}
+
+.header-td2{
+  border-top: 1px solid black;
+  margin: 5px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 100px;
+  font-size: xx-small;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.table-all-users-reports{
+  width: 100%;
+
+}
+.table-all-users-reports td{
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.table-all-users-reports thead{
+ background-color: #EEE;
+
+}
+/* old style */
+/*
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+
+.head-right{
+    float: right;
+    margin: 2px;
+}
+.head-center{
+     float: right;
+}
+
+.head-left{
+     float: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.img-rounded {
+  border-radius: 6px;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-right: 180px;
+    margin-top: 20px;
+
+}
+
+.line {
+  border-top-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 795px;
+  float: left ;  
+}
+.title{
+  float: right;
+   width: 780px;
+
+}
+.content{
+  float: right;
+}
+
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+*/

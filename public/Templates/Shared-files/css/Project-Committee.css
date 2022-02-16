@@ -1,0 +1,32 @@
+.note-create-calendar{
+    height: 70px;
+}
+.descrdiption-deliveries{
+    height: 200px;
+}
+.text-create-popposal{
+    height: 120px;
+}
+.ProgramChoose{
+    overflow-y: scroll;
+    max-height: 200px;
+}
+.image-user-Proposals img{
+    height: 50px;
+    width: 50px;
+  vertical-align:small;
+}
+
+.hidetxt{
+
+    width: 27rem;
+    display: table-caption;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*cursor: no-drop;*/
+}  
+
+.border-nav-bottom{
+    border-bottom: 1px solid #006271;
+}

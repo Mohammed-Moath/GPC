@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="header-td1">
+                <div>
+                    <p>جامعة العلوم والتكنولوجيا
+                        <br> كلية الحاسوب وتكنولوجيا المعلومات
+                    </p>
+                </div>
+                <div class="logo">
+                    <!-- <img title="GPC" class="rounded img-responsive" src="{{ asset('img\NewLoge.JPG') }}" alt=" #"> -->
+                    <br>
+                    <b>نظام ادارة مشاريع التخرج</b>
+                </div>
+                <div>
+                    <p>التاريخ : {{date_only()}}</p>
+
+                    <p>الرقم :</p>
+                </div>
+                <p class="clear"></p>
+            </div>
+            <div class="header-td2">
+                <h3>@yield('title_reports')</h3>
+            </div>
+        </div>
+
+
+        <div class="mian"> @yield('content')
+            <table class="table-all-users-reports">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">الاسم</th>
+                        <th scope="col">أسم الاستخدام</th>
+                        <th scope="col">الجنس</th>
+                        <th scope="col">المجموعة</th>
+                        <th scope="col">حالة الحساب</th>
+                        <th scope="col">تاريخ الاضافة</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach($users as $user)
+                    <tr>
+                        <th scope="row">{{ isset($user->id) !=null ? $user->id : ''}}</th>
+                        <td>{{ isset($user->Name) !=null ? $user->Name : 'لاتوجد بيانات ليتم عرضها !'}}</td>
+                        <td>{{ ($user->username) !=null ? $user->username : 'لاتوجد بيانات ليتم عرضها !'}}</td>
+                        <td>{{ ($user->Gender) !=null ? $user->Gender : 'لاتوجد بيانات ليتم عرضها !'}}</td>
+                        <td>{{ ($user->UserRoles->UserRoleAr) !=null ? $user->UserRoles->UserRoleAr : 'لاتوجد بيانات ليتم عرضها !'}}</td>
+                        <td>
+                            @if($user->IsActive == 0)
+                            <span>غير مفعل</span>
+                            @endif
+                            @if($user->IsActive == 1)
+                            <span> مفعل</span>
+                            @endif
+                        </td>
+                        <td>{{ ($user->created_at) !=null ? $user->created_at : 'لاتوجد بيانات ليتم عرضها !'}}</td>
+                    </tr>
+                    @endforeach
+                <tbody>
+            </table>
+
+
+        </div>
+
+
+        <div class="footer">
+            <p>طبع بواسطة : {{ Auth::user()->username }} | {{ Time_Now() }}</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
